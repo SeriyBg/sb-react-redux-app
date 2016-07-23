@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/SeriyBg/sb-react-redux-app.git"
   },
+  "scripts":{
+    "start": "babel-node tools/srcServer.js"
+  },
   "author": "sbishyr",
   "license": "ISC",
   "dependencies": {
