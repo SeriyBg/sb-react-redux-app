@@ -8,6 +8,7 @@
     "url": "git+https://github.com/SeriyBg/sb-react-redux-app.git"
   },
   "scripts":{
+    "prestart": "babel-node tools/startMessage.js",
     "start": "babel-node tools/srcServer.js"
   },
   "author": "sbishyr",
