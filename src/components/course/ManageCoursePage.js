@@ -11,7 +11,7 @@ class ManageCoursePage extends React.Component {
     this.state = {
       course: Object.assign({}, this.props.course),
       errors: {}
-    }
+    };
   }
 
   render() {
