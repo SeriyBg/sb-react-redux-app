@@ -10,7 +10,7 @@ const TextInput = ({name, label, onChange, value, placeholder, error}) => {
       <label htmlFor={name}>{label}</label>
       <input
         type="text"
-        name="name"
+        name={name}
         className="form-control"
         placeholder={placeholder}
         value={value}
